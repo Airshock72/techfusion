@@ -4,7 +4,7 @@ import { createRoot } from 'react-dom/client'
 import App from 'src/App.tsx'
 
 const createElement = document.createElement('div')
-createElement.className = 'flex flex-col '
+createElement.className = 'flex flex-col'
 createElement.id = 'root'
 document.body.appendChild(createElement)
 
